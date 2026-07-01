@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -266,6 +269,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 58%,
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
   background-attachment: fixed;
+  text-align: center;
 }
 .face{
     display: flex;
@@ -292,4 +296,39 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 58%,
 }
 .cr{
    color: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)
+}
+#about{
+    background-image: url(./images/bwwwwwwww.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 99vw;
+    height: 110vh;
+    padding: 10px;
+}
+.ki{
+    display: flex;
+    justify-content:center;
+    color: aliceblue;
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: 50px;
+}
+.more{
+    display: flex;
+    justify-content:space-between;
+    color: aliceblue;
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: 28px;
+    margin-left: 3px;
+    padding: 13px;
+}
+.last{
+    font-family: "Titillium Web", sans-serif;
+    color: aliceblue;
+    font-size: 27px;
+    font-weight: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
